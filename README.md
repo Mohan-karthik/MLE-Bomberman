@@ -18,11 +18,12 @@ and finally full four-player Bomberman.
 
 ## Repository Structure
 
-agent_code/SARSA_agent     - SARSA curriculum agents
-agent_code/my_agent         - developmental Approx-Q agent
-agent_code/clean_my_agent   - final learned-only Approx-Q agent
-agent_code/clean_dqn_agent  - Dueling Double DQN
 
+agent_code/
+├── SARSA_agent/        - SARSA curriculum agents
+├── my_agent/           - Developmental Approx-Q agent
+├── clean_my_agent/     - Final learned-only Approx-Q agent
+└── clean_dqn_agent/    - Dueling Double DQN
 
 
 ## Dependencies
